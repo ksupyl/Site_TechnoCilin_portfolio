@@ -16,3 +16,8 @@
     display: flex;
     justify-content: center;
 }
+
+.heading_item{
+    margin-right: 38px;
+    list-style: none;
+}
