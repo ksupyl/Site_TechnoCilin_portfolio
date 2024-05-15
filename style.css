@@ -1,7 +1,7 @@
 .heading_text {
     color: #000000;
     font-family: "Jost";
-    font-size: 35px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 600;
 }
@@ -26,7 +26,7 @@
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: Jost;
-    font-size: 25px;
+    font-size: 23px;
     font-style: normal;
     font-weight: 300;
 }
@@ -46,7 +46,16 @@
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Jost;
-    font-size: 23px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
+}
+
+.header_img_container{
+    margin-top: 56px;
+    text-align: center;
+}
+
+.header_img_container img{
+    width: 800px;
 }
