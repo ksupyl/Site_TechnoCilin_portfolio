@@ -1,23 +1,32 @@
-.heading_text{
-    color: #000000;
-    font-family: 'Jost';
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 600;
+.heading_text {
+  color: #000000;
+  font-family: "Jost";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
 }
 
-.heading_container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.heading_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.heading_list{
-    display: flex;
-    justify-content: center;
+.heading_list {
+  display: flex;
+  justify-content: center;
 }
 
-.heading_item{
-    margin-right: 38px;
-    list-style: none;
+.heading_item {
+  margin-right: 38px;
+  list-style: none;
+}
+
+.heading_link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
 }
