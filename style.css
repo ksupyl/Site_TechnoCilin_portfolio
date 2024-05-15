@@ -1,38 +1,46 @@
 .heading_text {
-  color: #000000;
-  font-family: "Jost";
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 600;
+    color: #000000;
+    font-family: "Jost";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
 }
 
 .heading_container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .heading_list {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .heading_item {
-  margin-right: 38px;
-  list-style: none;
+    margin-right: 38px;
+    list-style: none;
 }
 
 .heading_link {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: Jost;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: 300;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Jost;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
 }
 
-.heading_button{
+.heading_button {
     border-radius: 10px;
-background: rgb(140, 159, 227);
-padding: 7px;
+    background: rgb(140, 159, 227);
+    padding: 7px;
+}
+
+.heading_link_button {
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
 }
