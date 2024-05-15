@@ -31,6 +31,11 @@
     font-weight: 300;
 }
 
+.heading_link:hover{
+    text-decoration: underline;
+    color: rgb(140, 159, 227);
+}
+
 .heading_button {
     border-radius: 10px;
     background: rgb(140, 159, 227);
@@ -39,14 +44,6 @@
 
 .heading_link_button {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Jost;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.heading_link_button {
     color: rgb(255, 255, 255);
     font-family: Jost;
     font-size: 23px;
