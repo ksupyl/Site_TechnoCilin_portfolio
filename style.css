@@ -30,3 +30,9 @@
   font-style: normal;
   font-weight: 300;
 }
+
+.heading_button{
+    border-radius: 10px;
+background: rgb(140, 159, 227);
+padding: 7px;
+}
