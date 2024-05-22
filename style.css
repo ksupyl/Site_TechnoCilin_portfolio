@@ -57,13 +57,27 @@
 }
 
 .header_img_container img{
-    width: 900px;
+    width: 800px;
 }
 
 .technic_header_title{
     color: #000000;
     font-family: Jost;
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
+}
+
+.technic_header_text{
+    color: #000000;
+    font-family: Jost;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 11px;
+}
+
+.technic_header{
+    text-align: center;
+    margin-top: 96px;
 }
