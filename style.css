@@ -57,5 +57,13 @@
 }
 
 .header_img_container img{
-    width: 800px;
+    width: 900px;
+}
+
+.technic_header_title{
+    color: #000000;
+    font-family: Jost;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
 }
