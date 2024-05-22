@@ -87,12 +87,12 @@
   border-radius: 50px;
   background: rgb(255, 255, 255);
   width: 300px;
-  height: 360px;
+  height: 350px;
 }
 
-.card img{
-    width: 250px;
-    height: 120px;
+.card img {
+  width: 250px;
+  height: 120px;
 }
 
 .card_title {
@@ -115,4 +115,42 @@
   font-style: normal;
   font-weight: 400;
   width: 248px;
+}
+
+.card_price{
+  margin-bottom: 10px;
+}
+
+.price_1 {
+  color: rgb(62, 104, 255);
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 19px;
+}
+
+.price_2 {
+  color: rgb(40, 40, 40);
+  font-family: Jost;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.card_button{
+  border-radius: 10px;
+  background: rgb(158, 180, 255);
+  width: 170px;
+  height: 30px;
+  margin-left: 65px;
+}
+
+.card_button a{
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
 }
