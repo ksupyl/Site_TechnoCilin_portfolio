@@ -1,83 +1,118 @@
 .heading_text {
-    color: #000000;
-    font-family: "Jost";
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
+  color: #000000;
+  font-family: "Jost";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .heading_container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .heading_list {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .heading_item {
-    margin-right: 38px;
-    list-style: none;
+  margin-right: 38px;
+  list-style: none;
 }
 
 .heading_link {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-family: Jost;
-    font-size: 23px;
-    font-style: normal;
-    font-weight: 300;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
 }
 
-.heading_link:hover{
-    text-decoration: underline;
-    color: rgb(140, 159, 227);
+.heading_link:hover {
+  text-decoration: underline;
+  color: rgb(140, 159, 227);
 }
 
 .heading_button {
-    border-radius: 10px;
-    background: rgb(140, 159, 227);
-    padding: 7px;
+  border-radius: 10px;
+  background: rgb(140, 159, 227);
+  padding: 7px;
 }
 
 .heading_link_button {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Jost;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Jost;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
 }
 
-.header_img_container{
-    margin-top: 56px;
-    text-align: center;
+.header_img_container {
+  margin-top: 56px;
+  text-align: center;
 }
 
-.header_img_container img{
-    width: 800px;
+.header_img_container img {
+  width: 800px;
 }
 
-.technic_header_title{
-    color: #000000;
-    font-family: Jost;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 600;
+.technic_header_title {
+  color: #000000;
+  font-family: Jost;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
 }
 
-.technic_header_text{
-    color: #000000;
-    font-family: Jost;
-    font-size: 19px;
-    font-style: normal;
-    font-weight: 300;
-    margin-top: 11px;
+.technic_header_text {
+  color: #000000;
+  font-family: Jost;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 11px;
 }
 
-.technic_header{
-    text-align: center;
-    margin-top: 96px;
+.technic_header {
+  text-align: center;
+  margin-top: 96px;
+}
+
+.card {
+  border: 1px solid rgba(118, 118, 118, 0.5);
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  width: 300px;
+  height: 360px;
+}
+
+.card img{
+    width: 250px;
+    height: 120px;
+}
+
+.card_title {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  color: rgb(0, 0, 0);
+  font-family: Jost;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.card_description {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  color: rgb(99, 99, 99);
+  font-family: Jost;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 248px;
 }
