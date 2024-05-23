@@ -83,6 +83,10 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   border: 1px solid rgba(118, 118, 118, 0.5);
   border-radius: 50px;
   background: rgb(255, 255, 255);
@@ -108,7 +112,6 @@
 .card_description {
   margin-top: 0px;
   margin-bottom: 10px;
-  margin-left: 25px;
   color: rgb(99, 99, 99);
   font-family: Jost;
   font-size: 16px;
@@ -141,9 +144,10 @@
 .card_button{
   border-radius: 10px;
   background: rgb(158, 180, 255);
-  width: 170px;
-  height: 30px;
-  margin-left: 65px;
+  width: 190px;
+  height: 33px;
+  cursor: pointer;
+  margin-left: 30px;
 }
 
 .card_button a{
