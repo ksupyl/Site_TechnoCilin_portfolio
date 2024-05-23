@@ -63,15 +63,16 @@
 .technic_header_title {
   color: #000000;
   font-family: Jost;
-  font-size: 25px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 600;
+  margin-bottom: 11px;
 }
 
 .technic_header_text {
   color: #000000;
   font-family: Jost;
-  font-size: 19px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 300;
   margin-top: 11px;
@@ -87,16 +88,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-align:center;
   border: 1px solid rgba(118, 118, 118, 0.5);
   border-radius: 50px;
   background: rgb(255, 255, 255);
-  width: 300px;
-  height: 350px;
+  width: 320px;
+  height: 370px;
 }
 
 .card img {
-  width: 250px;
-  height: 120px;
+  width: 275px;
+  height: 132px;
 }
 
 .card_title {
@@ -110,14 +112,13 @@
 }
 
 .card_description {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto;
   color: rgb(99, 99, 99);
   font-family: Jost;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  width: 248px;
+  width: 240px;
 }
 
 .card_price{
@@ -142,12 +143,12 @@
 }
 
 .card_button{
+  margin: 0 auto;
   border-radius: 10px;
   background: rgb(158, 180, 255);
-  width: 190px;
-  height: 33px;
+  width: 210px;
+  height: 35px;
   cursor: pointer;
-  margin-left: 30px;
 }
 
 .card_button a{
@@ -157,4 +158,10 @@
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 51px;
 }
