@@ -33,12 +33,12 @@
 
 .heading_link:hover {
   text-decoration: underline;
-  color: rgb(140, 159, 227);
+  color: rgb(41, 158, 169);
 }
 
 .heading_button {
   border-radius: 10px;
-  background: rgb(140, 159, 227);
+  background: rgb(41, 158, 169);
   padding: 7px;
 }
 
@@ -56,8 +56,9 @@
   text-align: center;
 }
 
-.header_img_container img {
-  width: 800px;
+.header_img{
+  width: 1150px;
+  border-radius: 5%;
 }
 
 .technic_header_title {
@@ -66,6 +67,7 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
+  margin-top: 96px;
   margin-bottom: 11px;
 }
 
@@ -88,17 +90,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  text-align:center;
+  text-align: center;
   border: 1px solid rgba(118, 118, 118, 0.5);
   border-radius: 50px;
   background: rgb(255, 255, 255);
-  width: 320px;
-  height: 370px;
+  width: 360px;
+  height: 480px;
 }
 
-.card img {
-  width: 275px;
-  height: 132px;
+.card_img{
+  width: 300px;
+  border-radius: 5%;
 }
 
 .card_title {
@@ -115,43 +117,43 @@
   margin: 0 auto 10px auto;
   color: rgb(99, 99, 99);
   font-family: Jost;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  width: 240px;
+  width: 275px;
 }
 
-.card_price{
+.card_price {
   margin-bottom: 10px;
 }
 
 .price_1 {
-  color: rgb(62, 104, 255);
+  color: rgb(29, 92, 100);
   font-family: Jost;
-  font-size: 24px;
+  font-size: 23px;
   font-style: normal;
   font-weight: 500;
   margin-right: 19px;
 }
 
 .price_2 {
-  color: rgb(40, 40, 40);
+  color: rgb(66, 66, 66);
   font-family: Jost;
-  font-size: 24px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 300;
 }
 
-.card_button{
+.card_button {
   margin: 0 auto;
   border-radius: 10px;
-  background: rgb(158, 180, 255);
+  background: rgb(41, 158, 169);
   width: 210px;
   height: 35px;
   cursor: pointer;
 }
 
-.card_button a{
+.card_button a {
   color: rgb(255, 255, 255);
   font-family: Jost;
   font-size: 21px;
@@ -160,8 +162,32 @@
   text-decoration: none;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: space-evenly;
   margin-top: 51px;
+}
+
+.feedback_header{
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.feedback_header_title {
+  font-family: Jost;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.feeadback_comment {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.feedback_prof {
+  color: #545454;
 }
