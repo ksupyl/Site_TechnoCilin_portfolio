@@ -1,6 +1,6 @@
 .heading_text {
   color: #000000;
-  font-family: "Jost";
+  font-family: 'Jost';
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -25,7 +25,7 @@
 .heading_link {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 23px;
   font-style: normal;
   font-weight: 300;
@@ -45,7 +45,7 @@
 .heading_link_button {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -63,7 +63,7 @@
 
 .technic_header_title {
   color: #000000;
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -73,7 +73,7 @@
 
 .technic_header_text {
   color: #000000;
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 23px;
   font-style: normal;
   font-weight: 300;
@@ -107,7 +107,7 @@
   margin-top: 12px;
   margin-bottom: 4px;
   color: rgb(0, 0, 0);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -116,7 +116,7 @@
 .card_description {
   margin: 0 auto 10px auto;
   color: rgb(99, 99, 99);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -129,7 +129,7 @@
 
 .price_1 {
   color: rgb(29, 92, 100);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 23px;
   font-style: normal;
   font-weight: 500;
@@ -138,7 +138,7 @@
 
 .price_2 {
   color: rgb(66, 66, 66);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
@@ -155,7 +155,7 @@
 
 .card_button a {
   color: rgb(255, 255, 255);
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -176,7 +176,7 @@
 }
 
 .feedback_header_title {
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
@@ -195,7 +195,7 @@
   margin-top: 12px;
   margin-bottom: 0;
   color: #000;
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -204,13 +204,13 @@
 .feedback_prof {
   margin-top: 0;
   color: #545454;
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 20px;
   font-style: normal;
   font-weight: 300;
 }
 
-.feedback_main{
+.feedback_main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -224,14 +224,30 @@
 .feedback_text {
   color: #000;
   text-align: center;
-  font-family: Jost;
+  font-family: 'Jost';
   font-size: 23px;
   font-style: normal;
   font-weight: 300;
   width: 1015px;
 }
 
-.feedback_radio_but{
+.feedback_radio_but {
   text-align: center;
   margin-top: 25px;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.question_title {
+  margin-top: 96px;
+  color: #000000;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
 }
