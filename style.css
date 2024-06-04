@@ -253,6 +253,15 @@
   font-size: 30px;
 }
 
+.question_description {
+  margin-top: 9px;
+  margin-bottom: 45px;
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 23px;
+  font-weight: 300;
+}
+
 .align_question_form {
   display: flex;
   flex-direction: column;
