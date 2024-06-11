@@ -255,8 +255,8 @@
 }
 
 .question_description {
-  margin-top: 9px;
-  margin-bottom: 45px;
+  margin: 0;
+  margin-bottom: 65px;
   font-family: "Jost";
   font-style: normal;
   font-size: 23px;
@@ -280,6 +280,7 @@
   background: rgb(255, 255, 255);
   width: 700px;
   height: 400px;
+  margin: 0;
 }
 
 .contact {
