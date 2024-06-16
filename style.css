@@ -301,6 +301,21 @@
   padding: 0 30px;
 }
 
+.question_button {
+  margin-top: 47px;
+  width: 210px;
+  height: 35px;
+  border-radius: 10px;
+  background: rgb(41, 158, 169);
+  border: rgb(41, 158, 169);
+  cursor: pointer;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffffff;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
