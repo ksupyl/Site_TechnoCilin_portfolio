@@ -256,7 +256,7 @@
 
 .question_description {
   margin: 0;
-  margin-bottom: 65px;
+  margin-bottom: 45px;
   font-family: "Jost";
   font-style: normal;
   font-size: 23px;
@@ -266,7 +266,6 @@
 .align_question_form {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -277,18 +276,18 @@
   border: 1px solid rgba(118, 118, 118, 0.5);
   border-radius: 50px;
   background: rgb(255, 255, 255);
-  width: 700px;
-  height: 400px;
+  width: 680px;
+  height: 380px;
   margin: 0;
 }
 
 .in_1 {
-  margin-top: 27px;
+  margin-top: 26px;
   border-radius: 30px;
   background: #ffffff;
   border: 1px solid #bababa;
-  width: 585px;
-  height: 64px;
+  width: 570px;
+  height: 49px;
   color: #696969;
   font-family: "Jost";
   font-size: 21px;
@@ -302,7 +301,7 @@
 }
 
 .question_button {
-  margin-top: 47px;
+  margin: 38px 0;
   width: 210px;
   height: 35px;
   border-radius: 10px;
@@ -317,6 +316,8 @@
 }
 
 .contact {
+  margin: 0;
+  margin-top: 96px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -324,16 +325,16 @@
 }
 
 .contact_title {
-  margin-top: 96px;
-  margin: 0;
   font-family: "Jost";
   font-style: normal;
   font-size: 30px;
   font-weight: 600;
+  margin: 0;
 }
 
 .contact_description {
-  font-family: 'Jost';
+  margin: 7px 0 45px 0;
+  font-family: "Jost";
   font-style: normal;
   font-size: 23px;
   font-weight: 300;
