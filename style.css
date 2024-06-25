@@ -341,3 +341,33 @@
   margin-top: 7px;
   margin-bottom: 57px;
 }
+
+.footer {
+  height: 227px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_logo {
+  color: #000000;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer_item {
+  list-style: none;
+  color: #000000;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.f_i {
+  color: #3e68ff;
+  font-weight: 400;
+}
